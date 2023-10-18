@@ -1,0 +1,21 @@
+.banner-left-side1{
+  border: 2px solid #f7c748bf;
+  min-width: 80%;
+    max-width: 80%;
+  /* transform: rotate(-18deg); */
+}
+.auther-name{
+  border-top: 2px solid #f7c748bf;
+
+}
+.banner-left-side2{
+    border: 2px solid #f7c748bf;
+    /* transform: rotate(12deg); */
+  }
+  .banner-left-side3{
+    border: 2px solid #f7c748bf;
+    /* transform: rotate(-18deg); */
+  }
+.lh24 {
+    line-height: 24px;
+}

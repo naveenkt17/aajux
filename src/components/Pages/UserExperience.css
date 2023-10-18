@@ -1,0 +1,28 @@
+.user-experience-heading2 span{
+    font-weight:600;
+}
+.user-experience-heading3 span{
+    font-weight: 700;
+}
+.user-experience-list li::marker{
+    content: "•";
+    font-size: 36px;
+    text-align:start;
+    text-align-last: start;
+}
+.our-process-contant span{
+    font-weight: 700;
+}
+.our-process-img img{
+    max-width: 88%;
+    height: auto;
+}
+.user-experience-list3 li::marker{
+    content: "•";
+    font-size: 36px;
+    text-align: center;
+    text-align-last:center;
+}
+.our-process-contant span{
+    font-weight: 700;
+}

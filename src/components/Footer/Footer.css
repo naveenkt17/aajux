@@ -1,0 +1,21 @@
+.footer-copy-right {
+  background-color: #171616;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-links {
+    justify-content: flex-start;
+  }
+  .footer-links ul:not(:last-of-type) {
+    margin-right: 16%;
+  }
+  .footer-right {
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 48px;
+  }
+  .footer-right h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}

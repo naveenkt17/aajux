@@ -1,0 +1,46 @@
+.company-banner-contant span{
+font-weight:800
+}
+.company-core-heading3 span{
+    font-weight: 800;
+}
+.Certainty-Since-contant span{
+    font-weight:700;
+}
+.pioneers-sub-contant span{
+    font-weight:700;
+}
+.pioneers-img img{
+    max-width: 45%;
+    height: auto;
+}
+.icon span{
+    margin-right: 12px;
+    border-radius: 50px;
+    font-weight:bold;
+}
+.pioneers-sub-contant span::after{
+    content: "";
+    border: 5px solid #fec93f;
+    position: absolute;
+    width: 26%;
+    z-index: -1;
+    top: 35px;
+    right: 132px;
+}
+.latest-work img{
+    max-width: 100%;
+    height: auto;
+}
+.latest-work{
+    min-width: auto;
+    max-width:220px;
+}
+.logo-img1 img{
+    max-width: 100%;
+    height: auto;
+}
+.logo{
+    max-width: 100%;
+    height: auto;
+}
