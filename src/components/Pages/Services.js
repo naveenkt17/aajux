@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import '../Pages/Service.css';
 import { CustomerTestimonial } from "./CustomerTestimonial";
 
+
 const Services = () => {
   return (
     <div>
@@ -44,61 +45,61 @@ const Services = () => {
           <div className="page-lists  flx1 fc2 lh34 fc-h2  ">
             <ul className="df fww ais">
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
-                  <span className="v-center  h24 mr12 mt4 fs20 fw7">→</span>User
-                  Experience Research
+                <Link to= "/services/user-experince" className="brd-b1 pb8 fc2 fc-h2 df ais mr24"  >
+                  <span className="v-center  h24 mr12 mt4 fs20 fw7">→</span>
+                  User Experience Research
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/heuristic-analysis" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>Heuristic
                   Analysis
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
+                <Link to="/services/product-research" className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
                   <span className="v-center h24 mr12 mt4 fs20 fw7">→</span>
                   Product Research
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/persona-development" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>Persona
                   Development
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
+                <Link to="/services/competitive-analysis" className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
                   <span className="v-center h24 mr12 mt4 fs20 fw7">→</span>
                   Competitive Analysis
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/swot-analysis" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>SWOT
                   Analysis
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
+                <Link to="/services/user-journey-evaluation" className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
                   <span className="v-center h24 mr12 mt4 fs20 fw7">→</span>User
                   Journey Evaluation
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/information-architecture-analysis" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>
                   Information Architecture Analysis
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
+                <Link to="/services/usability-testing" className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
                   <span className="v-center h24 mr12 mt4 fs20 fw7">→</span>
                   Usability Testing
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/ux-ui-audit" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>UX/UI
                   Audit
                 </Link>
@@ -129,49 +130,49 @@ const Services = () => {
           <div className="page-lists  flx1 fc2 lh34 fc-h2  ">
             <ul className="df fww ais">
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
+                <Link to="/services/brand-design" className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
                   <span className="v-center  h24 mr12 mt4 fs20 fw7">→</span>
                   Brand Design
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/motion-and-animation" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>Motion
                   and Animation
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
+                <Link to="/services/user-experience-design" className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
                   <span className="v-center h24 mr12 mt4 fs20 fw7">→</span>
                   User Experience Design
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/design-system" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>Design
                   System
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
+                <Link to="/services/user-interface-design" className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
                   <span className="v-center h24 mr12 mt4 fs20 fw7">→</span>
                   User Interface Design
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/illustrations-and-iconography" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>
                   Illustrations and <br /> Iconography
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
+                <Link to="/services/prototyping-and-interaction-design" className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
                   <span className="v-center h24 mr12 mt4 fs20 fw7">→</span>
                   Prototyping and Interaction Design
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/graphic-design" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>
                   Graphic Design
                 </Link>
@@ -202,13 +203,13 @@ const Services = () => {
           <div className="page-lists  flx1 fc2 lh34 fc-h2  ">
             <ul className="df fww ais">
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
+                <Link to="/services/front-end-development" className="brd-b1 pb8 fc2 fc-h2 df ais mr24">
                   <span className="v-center  h24 mr12 mt4 fs20 fw7">→</span>
                   Front-End Development
                 </Link>
               </li>
               <li className="flx50 pt24">
-                <Link className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
+                <Link to="/services/mobile-applications" className="brd-b1 pb8 fc2 fc-h2 df ais ml24">
                   <span className="v-center h24 mr12 mt4 fs20">→</span>Mobile
                   Applications
                 </Link>

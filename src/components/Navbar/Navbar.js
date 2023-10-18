@@ -34,6 +34,14 @@ const Navbar = () => {
         </li>
         <li className='nav-item plr32'>
           <NavLink
+            to='/company'
+            className='nav-link fc2 fc-h2 ptb12 pr aft ls1'
+          >
+            Company
+          </NavLink>
+        </li>
+        <li className='nav-item plr32'>
+          <NavLink
             to='/services'
             className='nav-link fc2 fc-h2 ptb12 pr aft ls1'
           >
@@ -42,7 +50,7 @@ const Navbar = () => {
         </li>
         <li className='nav-item plr32'>
           <NavLink
-            to='/services'
+            to='/projects'
             className='nav-link fc2 fc-h2 ptb12 pr aft ls1'
           >
             Project

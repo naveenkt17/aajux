@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { AppProvider } from './context';
+// import ScrollToTop from './components/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AppProvider>
     <React.StrictMode>
       <App />
+      {/* <ScrollToTop/> */}
     </React.StrictMode>
   </AppProvider>
   
