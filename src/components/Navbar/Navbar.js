@@ -88,7 +88,7 @@ const Navbar = () => {
               </li>
               <li className='menu-item plr32'>
                 <NavLink
-                  to='/'
+                  to='/services'
                   onClick={handleLinkClick}
                   className='nav-link fc2 fw7 fs48 mb24 fc-h2 ptb12 pr aft ls1'
                 >
@@ -97,16 +97,16 @@ const Navbar = () => {
               </li>
               <li className='menu-item plr32'>
                 <NavLink
-                  to='/'
+                  to='/company'
                   onClick={handleLinkClick}
                   className='nav-link fc2 fw7 fs48 mb24 fc-h2 ptb12 pr aft ls1'
                 >
-                  Career
+                  Company
                 </NavLink>
               </li>
               <li className='menu-item plr32'>
                 <NavLink
-                  to='/'
+                  to='/contact'
                   onClick={handleLinkClick}
                   className='nav-link fc2 fw7 fs48 mb24 fc-h2 ptb12 pr aft ls1'
                 >
@@ -125,7 +125,7 @@ const Navbar = () => {
               </li>
               <li className='menu-item plr32'>
                 <NavLink
-                  to='/'
+                  to='/company'
                   onClick={handleLinkClick}
                   className='nav-link fc2 fs15 mb8 fc-h2 ptb12 pr aft ls1'
                 >
@@ -134,7 +134,7 @@ const Navbar = () => {
               </li>
               <li className='menu-item plr32'>
                 <NavLink
-                  to='/'
+                  to='/services'
                   onClick={handleLinkClick}
                   className='nav-link fc2 fs15 mb8 fc-h2 ptb12 pr aft ls1'
                 >
@@ -143,7 +143,7 @@ const Navbar = () => {
               </li>
               <li className='menu-item plr32'>
                 <NavLink
-                  to='/'
+                  to='/services'
                   onClick={handleLinkClick}
                   className='nav-link fc2 fs15 mb8 fc-h2 ptb12 pr aft ls1'
                 >
@@ -159,7 +159,7 @@ const Navbar = () => {
               </li>
               <li className='menu-item plr32'>
                 <NavLink
-                  to='/'
+                  to='/services'
                   onClick={handleLinkClick}
                   className='nav-link fc2 fs15 mb8 fc-h2 ptb12 pr aft ls1'
                 >
@@ -168,16 +168,16 @@ const Navbar = () => {
               </li>
               <li className='menu-item plr32'>
                 <NavLink
-                  to='/'
+                  to='/company'
                   onClick={handleLinkClick}
                   className='nav-link fc2 fs15 mb8 fc-h2 ptb12 pr aft ls1'
                 >
-                  Career
+                  Company
                 </NavLink>
               </li>
               <li className='menu-item plr32'>
                 <NavLink
-                  to='/'
+                  to='/contact'
                   onClick={handleLinkClick}
                   className='nav-link fc2 fs15 mb8 fc-h2 ptb12 pr aft ls1'
                 >
