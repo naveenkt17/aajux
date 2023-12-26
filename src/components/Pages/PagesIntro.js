@@ -22,7 +22,7 @@ export const PagesIntro = () => {
               services can drive innovation, streamline processes, and propel
               organizations towards their goals.
             </div >
-            <Link className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
+            <Link to="/contact" className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
               <span className="fc2">Get in touch</span>
             </Link>
           </div>

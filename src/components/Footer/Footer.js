@@ -21,7 +21,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/' className='fc10 ptb8 mb8 fc-h2'>
+                  <Link to='/projects' className='fc10 ptb8 mb8 fc-h2'>
                     Projects
                   </Link>
                 </li>
@@ -43,7 +43,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/blog' className='fc10 ptb8 mb8 fc-h2'>
+                  <Link to='/' className='fc10 ptb8 mb8 fc-h2'>
                     Blogs
                   </Link>
                 </li>
@@ -53,8 +53,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/contact' className='fc10 ptb8 mb8 fc-h2'>
-                    Careers
+                  <Link to='/company' className='fc10 ptb8 mb8 fc-h2'>
+                    Company
                   </Link>
                 </li>
               </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
               This is where possibilities are reimagined and breakthroughs are
               brewed.
             </h2>
-            <Link to='/' className='fs18 fw7 ttu fc4 dif aic'>
+            <Link to='/contact' className='fs18 fw7 ttu fc4 dif aic'>
               Start A Project
               <span className='material-symbols-outlined ml24'>
                 trending_flat

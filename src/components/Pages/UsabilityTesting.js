@@ -176,7 +176,7 @@ export const UsabilityTesting = () => {
       </section>
       <section className="bg11">
         <div className="wrapper our-process pt100 df">
-          <div className=" flx50">
+          <div className=" flx50">  
             <div className="our-process-heading fs20 fw5 mb24 ml32 ">
               Our process
             </div>

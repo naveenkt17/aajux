@@ -30,7 +30,7 @@ export const PagesHeading = () => {
                 ensuring that your offerings align seamlessly with user needs.
               </p>
             </div>
-            <Link className="page-btn ttu fs16 fw7 bg p16 get-in-touch fw6">
+            <Link to="/contact" className="page-btn ttu fs16 fw7 bg p16 get-in-touch fw6">
               <span className="fc2">Get in touch</span>
             </Link>
           </div>

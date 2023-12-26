@@ -27,6 +27,12 @@ import { Prototyping } from './components/Pages/Prototyping';
 import { GraphicDesign } from './components/Pages/GraphicDesign';
 import { FrontEndDevelopment } from './components/Pages/FrontEndDevelopment';
 import { MobileApplications } from './components/Pages/MobileApplications';
+import { LyefX } from './components/Pages/LyefX';
+import { Tig } from './components/Pages/Tig';
+import { Mesha } from './components/Pages/Mesha';
+import { Jobrocks } from './components/Pages/Jobrockes';
+import { Esg } from './components/Pages/Esg';
+import { Xchainge } from './components/Pages/Xchainge';
 
 
 
@@ -41,6 +47,12 @@ function App() {
       <Route path='/services' element={<Services />}/>
       <Route path='/company' element={<Company />}/>
       <Route path='/projects' element={<Projects />}/>
+      <Route path='/projects/lyfex' element={<LyefX />}/>
+      <Route path='/projects/tig' element={<Tig/>}/>
+      <Route path='/projects/mesha' element={<Mesha/>}/>
+      <Route path='/projects/jobrocks' element={<Jobrocks/>}/>
+      <Route path='/projects/esg' element={<Esg/>}/>
+      <Route path='/projects/xchainge' element={<Xchainge/>}/>
       <Route path='/services/user-experince' element={<UserExperience />}/>
       <Route path='/services/heuristic-analysis' element={<Heuristic />}/>
       <Route path='/services/product-research' element={<ProductResearch />}/>

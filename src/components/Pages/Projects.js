@@ -3,10 +3,16 @@ import { Link } from "react-router-dom";
 import '../Pages/Projects.css'
 import MyImage from "../../images/LYFE.png";
 import TIG from "../../images/TIG.png";
+import Tiglogo from "../../images/tig-logo.svg"
 import Meesho from "../../images/Meesha.png";
 import jobrock from "../../images/Job.rocks_.png";
+import jobrocklogo from "../../images/jobrocks-1.svg"
 import Xchainge from "../../images/Xchainge.png";
 import ESG from "../../images/ESG.png";
+import EsgIcon from "../../images/esg.svg"
+import meshaicon from "../../images/mesha.svg"
+import XchaingeLogo from "../../images/xchainge.svg"
+import lifexlogo from "../../images/lyfex.svg"
 import { CustomerTestimonial } from "./CustomerTestimonial";
 
 
@@ -15,11 +21,11 @@ export const Projects = () => {
     <>
       <section className="project-banner-01 bg11">
         <div className="wrapper df pt48 lh28 ptb100 ">
-          <div className="page-intro-heading  flx50">
+          <div className="page-intro-heading  flx50 ">
             <div className="page-intro-heading2 fs28 fw5 pl4 mb16">
-              LYFE X
+            <img src={lifexlogo} alt="Lifex_logo"/>
             </div>
-            <div className="page-intro-heading3 fs28 fw5 lh60 mb24">
+            <div className="page-intro-heading3 fs28 fw5 lh72 mb24">
               Distinctively designed NFT marketplace for{" "}
               <b>Crypto Enthusiasts.</b>
             </div>
@@ -32,7 +38,7 @@ export const Projects = () => {
                 A case study in bringing ideas to life through design.
               </span>
             </div>
-            <Link className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
+            <Link to="/projects/lyfex" className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
               <span className="fc2">VIEW CASE STUDY</span>
             </Link>
           </div>
@@ -45,7 +51,7 @@ export const Projects = () => {
         <div className="wrapper df pt48 lh28 ptb100">
           <div className="project-banner-heading  flx50">
             <div className="project-banner-heading2 fs32 fw7 pl4 mb16 ">
-              TIG
+            <img src={Tiglogo} alt="Tig_logo"/>
             </div>
             <div className="project-banner-heading3 fs28 fw5 lh48 mb24">
               Connecting approved ESG compliant{" "} 
@@ -58,7 +64,7 @@ export const Projects = () => {
                 A case study in effective visual communication.
               </span>
             </div>
-            <Link className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
+            <Link to="/projects/tig" className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32" >
               <span className="fc2">VIEW CASE STUDY</span>
             </Link>
           </div>
@@ -71,7 +77,7 @@ export const Projects = () => {
         <div className="wrapper df pt48 lh28 ptb100">
           <div className="project-banner-heading  flx50">
             <div className="project-banner-heading2 fs32 fw7 pl4 mb16 ">
-              mesha
+              <img src={meshaicon} alt="Mesha_icon"/>
             </div>
             <div className="project-banner-heading3 fs28 fw5 lh48 mb24">
             Web3 is the way forward for the internet and{" "} 
@@ -84,7 +90,7 @@ export const Projects = () => {
               A case study in pushing boundaries and breaking norms
               </span>
             </div>
-            <Link className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
+            <Link to="/projects/mesha" className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
               <span className="fc2">VIEW CASE STUDY</span>
             </Link>
           </div>
@@ -97,7 +103,7 @@ export const Projects = () => {
         <div className="wrapper df pt48 lh28 ptb100">
           <div className="project-banner-heading  flx50">
             <div className="project-banner-heading2 fs32 fw7 pl4 pb28 ">
-              job.rocks
+            <img src={jobrocklogo} alt="jobrock_logo"/>
             </div>
             <div className="project-banner-heading3 fs28 fw5 lh48 mb24">
             Making on-demand staff recruitment{" "} 
@@ -110,7 +116,7 @@ export const Projects = () => {
               A case study in creating memorable and engaging brand experiences.
               </span>
             </div>
-            <Link className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
+            <Link to="/projects/jobrocks" className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
               <span className="fc2">VIEW CASE STUDY</span>
             </Link>
           </div>
@@ -123,7 +129,7 @@ export const Projects = () => {
         <div className="wrapper df pt48 lh28 ptb100">
           <div className="project-banner-heading  flx50">
             <div className="project-banner-heading2 fs32 fw7 pl4 mb16 ">
-              TIG
+              <img src={EsgIcon} alt="ESG_Icon_image"/>
             </div>
             <div className="project-banner-heading3 fs28 fw5 lh48 mb24">
             Take back control of your{" "} 
@@ -136,7 +142,7 @@ export const Projects = () => {
               A case study in using design to make a positive difference in the world.
               </span>
             </div>
-            <Link className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
+            <Link to="/projects/esg" className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
               <span className="fc2">VIEW CASE STUDY</span>
             </Link>
           </div>
@@ -149,8 +155,8 @@ export const Projects = () => {
         <div className="wrapper df pt48 lh28 ptb100">
           <div className="project-banner-heading  flx50">
             <div className="project-banner-heading2 fs32 fw7 pl4 mb16 ">
-              TIG
-            </div>
+              <img src={XchaingeLogo} alt="Logo_image"/>
+            </div> 
             <div className="project-banner-heading3 fs28 fw5 lh48 mb24">
             Helping businesses improve financial{" "} 
               <b>health & sustainability</b>
@@ -162,7 +168,7 @@ export const Projects = () => {
               A case study in creating inclusive and accessible visual solutions.
               </span>
             </div>
-            <Link className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
+            <Link to="/projects/xchainge" className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
               <span className="fc2">VIEW CASE STUDY</span>
             </Link>
           </div>

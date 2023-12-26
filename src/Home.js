@@ -91,12 +91,12 @@ const Home = () => {
 
       <main className='pr zi1'>
         <section className='introduce-us w100 ptb40 bg6 ofh'>
-          <div className='hero-marquee f100 bg6 ofh merquee'>
+          {/* <div className='hero-marquee f100 bg6 ofh merquee'>
             <p className='ttu fc9 wsnw'>
               Design - Stretegy - Research - Design- Stretegy - Research -
               Design- Stretegy - Research - Design
             </p>
-          </div>
+          </div> */}
           <div className='wrapper'>
             <h2 className='section-heading fc2 pb8 pt40'>
               {name} is about <br />

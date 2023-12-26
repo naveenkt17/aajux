@@ -48,7 +48,7 @@ export const Company = () => {
                 businesses, and startups.
               </span>
             </div>
-            <Link className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
+            <Link to="/contact" className="page-btn ttu fs16 fw7 p16 get-in-touch fw6 mb32">
               <span className="fc2">GET IN TOUCH</span>
             </Link>
           </div>

@@ -316,6 +316,8 @@ table {
 }
 .bg12{
   background-color: #eef9fa;
+}.bg13{
+  background-color: #f0f0f1;
 }
 .bg1-trans-5 {
   background-color: rgba(0, 0, 0, 0.5);
@@ -442,6 +444,9 @@ table {
 }
 .lh60 {
   line-height: 60px;
+}
+.lh72 {
+  line-height: 72px;
 }
 .ls1 {
   letter-spacing: 0.5px;
@@ -743,6 +748,7 @@ table {
   padding-top: 64px;
 }
 .pt100,
+.pb100,
 .ptb100 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -810,6 +816,10 @@ table {
 .pr48,
 .plr48 {
   padding-right: 48px;
+}
+.pr52,
+.prl52{
+  padding-right: 52px;
 }
 
 .pb4 {
