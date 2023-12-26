@@ -31,7 +31,7 @@ const Contact = () => {
                       Name
                     </label>
                     <input
-                      class="w100 pl12 db h48 br8 brd1"
+                      class="w100 pl12 db h48 br8 brd-b2"
                       type="text"
                       placeholder="Name"
                       required
@@ -42,7 +42,7 @@ const Contact = () => {
                       Company
                     </label>
                     <input
-                      class=" w100 pl12 db h48 br8 brd1"
+                      class=" w100 pl12 db h48 br8 brd-b2"
                       type="text"
                       placeholder="Company"
                       required
@@ -56,7 +56,7 @@ const Contact = () => {
                     </label>
                     <br />
                     <input
-                      class="w100 pl12 db h48 br8 brd1"
+                      class="w100 pl12 db h48 br8 brd-b2"
                       type="text"
                       placeholder="Phone"
                       required
@@ -67,7 +67,7 @@ const Contact = () => {
                       Email
                     </label>
                     <input
-                      class="w100 pl12 db h48 br8 brd1"
+                      class="w100 pl12 db h48 br8 brd-b2"
                       type="email"
                       placeholder="Email Address"
                       required
@@ -79,7 +79,7 @@ const Contact = () => {
                     Subject
                   </label>
                   <input
-                    class="w100 pl12 mr8 db h48 br8 brd1"
+                    class="w100 pl12 mr8 db h48 br8 brd-b2"
                     type="text"
                     placeholder="Subject"
                   />
@@ -89,7 +89,7 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    class="flx100 pl12 pt8 mb8 db h80 br8 brd1"
+                    class="flx100 pl12 pt8 mb8 db h80 br8 brd-b2"
                     name="message"
                     id=""
                     rows="4"
